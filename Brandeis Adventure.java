@@ -25,7 +25,7 @@ public class Brandeisian Adventure {
     System.out.println("Now, which Building do you wanna start your adventure with, CS Building, Gosman Center, or North Dorm?");
     String building = TextIO.getlnString();
     if (building.equals("CS Building")){
-      chenyanxiprojectname()
+      CS()；
       yifeiprojectname()
     }
     else if (building.equals("Gosman Center")){
