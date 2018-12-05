@@ -16,7 +16,11 @@ public class CSBuilding{
     private static double talk = 0;
     private static double mercy = 0;
 
-    // The method which print player's health and TH's health
+    /**
+    This is a Method to print player's health and TH's health
+    @param playerHealth
+    @param THHealth
+    **/
     public static void printBlood(int playerHealth,int THHealth){
       System.out.println("--------------------------");
       System.out.println("Your Health: " + playerHealth);
@@ -25,7 +29,9 @@ public class CSBuilding{
     }
 
 
-    //Method to run attack movement
+    /**
+    This is a Method to run attack movement
+    **/
     public static void runattack(){
       int times1 = (int)(Math.random()*2) + 1;
       THHealth = THHealth - playerAttack * times1;
@@ -52,7 +58,11 @@ public class CSBuilding{
       }
     }
 
-    //Method to run mercy movement
+
+    /**
+    This is a Method to run mercy movement
+    when mercy >= 3, the player can mercy and win the game successfully
+    **/
     public static void runmercy(){
       if(mercy < 3){
         System.out.println("Professor Hickey has more knowledge he wants to teach!");
@@ -68,7 +78,10 @@ public static void main(String args[]){
   CS();
 }
 
-
+/**
+This is a Method to main game theorem
+it contains all the other method inside the CSBuiding class
+**/
 public static void CS(){
   System.out.println("BATTLE BEGIN!");
   System.out.println("Tim Hickey Jumps Out!!!");
