@@ -1,5 +1,7 @@
 //Yanxi Chen
 //The adventure at CS BUilding
+import java.util.Random;
+
 public class CSBuilding{
 
   //player's standard property
