@@ -118,6 +118,9 @@ public static void CS(){
       System.out.println("You lose!");
     }
   }
+  System.out.println("===============================");
+  System.out.println("");
+  System.out.println("");
 }
 
 
